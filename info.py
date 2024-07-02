@@ -54,7 +54,7 @@ PM = int(pm) if pm and id_pattern.search(pm) else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mp:mp@autofilterbotmp.4y4ktnc.mongodb.net/?retryWrites=true&w=majority&appName=autofilterbotmp")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
+DATABASE_NAME = environ.get('DATABASE_NAME', "mp")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Custom Chats
